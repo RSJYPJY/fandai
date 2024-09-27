@@ -2,11 +2,11 @@
 // @ts-ignore
 import { connect } from 'cloudflare:sockets';
 
-// How to generate your own UUID:
+// How to generate your own UUID:  默认反代；proxyip.us.fxxk.dedyn.io    优选ip： https://stock.hostmonit.com/CloudFlareYes  
 // [Windows] Press "Win + R", input cmd and run:  Powershell -NoExit -Command "[guid]::NewGuid()"
 let userID = '48fd10df-1206-4faf-905e-3f178c7d7585';
 
-let proxyIP = 'proxyip.us.fxxk.dedyn.io';
+let proxyIP = '146.70.175.111';
 
 
 if (!isValidUUID(userID)) {
